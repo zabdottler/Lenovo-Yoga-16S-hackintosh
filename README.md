@@ -38,7 +38,7 @@ USB|关闭XCHI0|支持
 在本机型中，存在两个XCHI控制器，XCHI0是电源键旁边那个USB-A口；XCHI1则是剩下的USB-A和USB-C，以及摄像头和网卡都由XCHI1控制，建议关闭XCHI0
 
 ---
-###致谢
+### 致谢
 
 ---
 感谢NootedRed的开发者们，使得AMD核显黑苹果成为可能
