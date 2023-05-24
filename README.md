@@ -30,7 +30,7 @@ HDMI输出||支持
 USB|关闭XCHI0|支持
 
 ---
-###关于USB
+### 关于USB
 
 ---
 使用UMAF工具进入高阶bios对设备的XCHI控制器进行禁用，具体参考https://github.com/ExtremeXT/Lenovo_Legion_5_Hackintosh
