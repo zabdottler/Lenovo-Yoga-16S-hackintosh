@@ -47,7 +47,7 @@ SSDT | 作用
 
 ---
 ###Kexts
-Kext | Info
+Kext | 作用
 :---------|:---------
 [AMDRyzenCPUPowerManagement] | AMD CPU 电源管理
 [AppleALC] | 音频驱动
