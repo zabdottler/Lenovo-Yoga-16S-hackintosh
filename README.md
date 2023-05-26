@@ -46,7 +46,7 @@ SSDT-ALS0 | NootedRed提供，用于屏幕亮度调整
 SSDT-PNLF | NootedRed提供，用于屏幕亮度调整
 
 ---
-###Kexts
+### Kexts
 Kext | 作用
 :---------|:---------
 AMDRyzenCPUPowerManagement | AMD CPU 电源管理
