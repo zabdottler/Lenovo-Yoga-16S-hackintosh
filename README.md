@@ -30,6 +30,48 @@ HDMI输出||支持
 USB|关闭XCHI0|支持
 
 ---
+## 了解你的EFI
+
+---
+### ACPI
+SSDT | 作用
+:---------|:---------
+[SSDT-PLUG-ALT] | 用于MacOS识别CPU，必须
+[SSDT-EC] | 欺骗MacOS的假EC，必须
+[SSDT-HPET] | 解决IRQ冲突，必须
+[SSDT-SBUS-MCHC] | 解决AppleSMBus
+[SSDT-USBX] | USB电源管理，必须
+[SSDT-XOSI] | MAC和WIN的ACPI功能，双系统必须
+[SSDT-ALS0] | NootedRed提供，用于屏幕亮度调整
+[SSDT-PNLF] | NootedRed提供，用于屏幕亮度调整
+
+---
+###Kexts
+Kext | Info
+:---------|:---------
+[AMDRyzenCPUPowerManagement] | AMD CPU 电源管理
+[AppleALC] | 音频驱动
+[AppleMCEReporterDisabler] | 关闭AppleIntelMCEReporter，避免在AMD CPU的设备上报错
+[ECEnabler] | 电池读取
+[FeatureUnlock] | 这个在Monterey没卵用，后续删除
+[Lilu] | 必备
+[NVMeFix] | NVMe硬盘电源管理
+[RestrictEvents] | CPU改名
+[SMCAMDProcessor] | AMDRyzenCPUPowerManagement的附属
+[SMCBatteryManager] | 电池管理
+[USBToolBox] | USB定制
+[USBMapLegacy.kext] | USB定制，这里我用的是legacy方式，限定了这个USB定制是在MacBookPro16,3机型使用，需要自行定制
+[VirtualSMC] | 必备
+[VoodooPS2Controller] | PS/2 键盘
+[NootedRed] | AMD核显驱动
+[NullEthernet] | 使无网口设备在MacOS可以登录iCloud
+[VoodooI2C] | 触控板或触屏驱动
+[VoodooI2CHID] | 触控板或触屏驱动
+[BrightnessKeys] | 亮度调节按键
+[AMDRadeonX5000HWLibs] | Monterey必须（目前），Big sur不需要
+[AMDRadeonX6000Framebuffer] | Monterey必须（目前），Big sur不需要
+
+---
 ### 关于USB
 
 ---
