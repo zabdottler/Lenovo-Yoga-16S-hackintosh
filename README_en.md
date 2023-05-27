@@ -1,5 +1,7 @@
 # Lenovo-Yoga-16S-hackintosh
 
+[简体中文](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/readme.md)
+
 ## Notes
 
 **This EFI is for Monterey only**
