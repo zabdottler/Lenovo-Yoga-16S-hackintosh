@@ -16,6 +16,14 @@
 ### 总览
 ![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/总览.png)
 
+---
+### 存在的问题
+1.睡眠
+
+2.内置麦克风
+
+3.偶尔会卡住，可能是硬盘问题？
+
 ### 配置
 
 ---
