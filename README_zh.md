@@ -10,6 +10,10 @@
 
 **机型信息已删除，请自行生成更换**
 
+---
+### 总览
+![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/总览.png)
+
 ### 配置
 
 ---
@@ -95,3 +99,10 @@ IntelBluetoothFirmware | 蓝牙驱动
 以及ExtremeXT的教程和指导
 >https://github.com/ExtremeXT/Lenovo_Legion_5_Hackintosh
 
+---
+### 截图
+![display setting](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/显示器设置.png)
+![multi-screen](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/多屏幕.png)
+![wifi](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/Wi-Fi设置.png)
+![bluetooth](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/蓝牙设置.png)
+![geekbench with cps disable](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/开启cps的跑分.png)
