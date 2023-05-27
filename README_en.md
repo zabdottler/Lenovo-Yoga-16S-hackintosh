@@ -1,4 +1,4 @@
-[简体中文](readme.md)
+[简体中文](README.md)
 
 # Lenovo-Yoga-16S-hackintosh
 
