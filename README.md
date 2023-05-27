@@ -1,4 +1,4 @@
-[English](readme_en.md)
+[English](README_en.md)
 
 # Lenovo-Yoga-16S-hackintosh
 
