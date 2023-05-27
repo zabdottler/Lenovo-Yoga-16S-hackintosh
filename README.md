@@ -53,7 +53,6 @@ AMDRyzenCPUPowerManagement | AMD CPU 电源管理
 AppleALC | 音频驱动
 AppleMCEReporterDisabler | 关闭AppleIntelMCEReporter，避免在AMD CPU的设备上报错
 ECEnabler | 电池读取
-FeatureUnlock] | 这个在Monterey没卵用，后续删除
 Lilu | 必备
 NVMeFix | NVMe硬盘电源管理
 RestrictEvents | CPU改名
@@ -62,7 +61,7 @@ SMCBatteryManager | 电池管理
 USBToolBox | USB定制
 USBMapLegacy.kext | USB定制，这里我用的是legacy方式，限定了这个USB定制是在MacBookPro16,3机型使用，需要自行定制
 VirtualSMC | 必备
-VoodooPS2Controller | PS/2 键盘
+VoodooPS2Controller | PS/2 键盘，需要在config中禁用voodoops2 input以避免与i2c的input冲突，不影响使用
 NootedRed | AMD核显驱动
 NullEthernet | 使无网口设备在MacOS可以登录iCloud
 VoodooI2C | 触控板或触屏驱动
@@ -70,6 +69,9 @@ VoodooI2CHID | 触控板或触屏驱动
 BrightnessKeys | 亮度调节按键
 AMDRadeonX5000HWLibs | Monterey必须（目前），Big sur不需要
 AMDRadeonX6000Framebuffer | Monterey必须（目前），Big sur不需要
+AirportItlwm | 英特尔ax200 Monterey驱动
+BlueToolFixup | 蓝牙驱动，Monterey中与IntelBluetoothFirmware搭配才能驱动英特尔网卡的蓝牙
+IntelBluetoothFirmware | 蓝牙驱动
 
 ---
 ### 关于USB
