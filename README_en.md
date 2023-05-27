@@ -1,6 +1,6 @@
-# Lenovo-Yoga-16S-hackintosh
+[简体中文](readme.md)
 
-[简体中文](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/readme.md)
+# Lenovo-Yoga-16S-hackintosh
 
 ## Notes
 
