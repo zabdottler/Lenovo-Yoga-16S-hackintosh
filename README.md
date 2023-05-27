@@ -1,3 +1,5 @@
+[English](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/readme_en.md)
+
 # Lenovo-Yoga-16S-hackintosh
 
 ## 说明
