@@ -16,6 +16,14 @@
 ### Overview
 ![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/总览.png)
 
+---
+### What's not working
+1. Sleep
+
+2. Internal mic
+
+3. Randomly freeze, NVMe drive related?
+
 ### Spec
 
 ---
