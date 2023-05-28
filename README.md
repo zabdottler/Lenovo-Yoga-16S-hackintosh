@@ -14,7 +14,7 @@
 
 ---
 ## 总览
-![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/总览.png)
+![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/总览.png)
 
 ---
 ### 存在的问题
@@ -119,8 +119,8 @@ Big sur: IntelBluetoothFirmware+IntelBluetoothInjector+IntelBTPatcher
 
 ---
 ### 截图
-![display setting](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/显示器设置.png)
-![multi-screen](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/多屏幕.png)
-![wifi](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/Wi-Fi设置.png)
-![bluetooth](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/蓝牙设置.png)
-![geekbench with cps disable](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/开启cps的跑分.png)
+![display setting](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/显示器设置.png)
+![multi-screen](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/多屏幕.png)
+![wifi](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/Wi-Fi设置.png)
+![bluetooth](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/蓝牙设置.png)
+![geekbench with cps disable](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/开启cps的跑分.png)
