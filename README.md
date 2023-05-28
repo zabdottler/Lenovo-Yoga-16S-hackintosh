@@ -4,7 +4,7 @@
 
 ## 说明
 
-**本EFI仅供Monterey即MacOS 12使用**
+**本EFI仅供Monterey和Big Sur 使用，建议使用Big Sur**
 
 **在安装MacOS前请在config.plist中禁用nootedred.kext**
 
@@ -13,7 +13,7 @@
 **机型信息已删除，请自行生成更换**
 
 ---
-### 总览
+## 总览
 ![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/总览.png)
 
 ---
