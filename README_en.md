@@ -86,8 +86,16 @@ BrightnessKeys | Enable brightness controll key on keyboard
 AMDRadeonX5000HWLibs | downgrade kext for Monterey
 AMDRadeonX6000Framebuffer | downgrade kext for Monterey
 AirportItlwm | Intel AX200 wifi kext for Monterey
-BlueToolFixup | Enable bluetooth on Montery
-IntelBluetoothFirmware | Enable bluetooth on Montery
+BlueToolFixup | Enable bluetooth on Montery with IntelBluetoothFirmware
+IntelBluetoothFirmware | Enable bluetooth. 
+IntelBluetoothInjector | Enable bluetooth on Big Sur with IntelBluetoothFirmware
+IntelBTPatcher | Enable bluetooth on Big Sur with IntelBluetoothFirmware
+
+Intel Bluetooth combo: 
+
+Monterey: IntelBluetoothFirmware+BlueToolFixup
+
+Big sur: IntelBluetoothFirmware+IntelBluetoothInjector+IntelBTPatcher
 
 ---
 ### USB
