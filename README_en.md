@@ -4,7 +4,7 @@
 
 ## Notes
 
-**This EFI is for Monterey only**
+**This EFI is for Monterey and Big Sur, overall Big Sur is recommanded**
 
 **Disable nootedred.kext in config.plist before install macOS**
 
