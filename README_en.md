@@ -4,7 +4,7 @@
 
 ## Notes
 
-**This EFI is for Monterey and Big Sur, overall Big Sur is recommanded**
+**This EFI is for Monterey and Big Sur**
 
 **Disable nootedred.kext in config.plist before install macOS**
 
@@ -14,7 +14,7 @@
 
 ---
 ### Overview
-![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/总览.png)
+![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/总览.png)
 
 ---
 ### What's not working
@@ -33,13 +33,13 @@ Components|Model|Compatibility
 :-|:-|:-|
 CPU|AMD Ryzen 7 5800H|☑️
 iGPU|AMD Radeon Vega 8 (Renoir)|☑️
-dGPU|Nvidia RTX 3050laptop|Unsupported
-Network card|Intel AX200|☑️，original MTK7921 is unsupported
-Drive|SAMSUNG PM981A|Unsupported，replace it to PM9A1
+dGPU|Nvidia RTX 3050laptop|✖️
+Network card|Intel AX200|☑️，original MTK7921✖️
+Drive|SAMSUNG PM9A1|☑️，original PM981A✖️
 Trackpad|I2C HID|☑️
 Keyboard|PS2 controller|☑️
 Touch Screen|I2C ELAN|☑️
-Bluetooth|Intel AX200|☑️，original MTK7921 is unsupported
+Bluetooth|Intel AX200|☑️，original MTK7921✖️
 HDMI output||☑️
 Audio/3.5mm jack|ALC287|☑️
 Ram|Mircon DDR4 3200MHz|☑️
@@ -58,8 +58,8 @@ SSDT-HPET | Fixes IRQ conflicts
 SSDT-SBUS-MCHC | Fixes AppleSMBus
 SSDT-USBX | Enables USB Power Management
 SSDT-XOSI | Spoof macOS to Windows for some ACPI features.
-SSDT-ALS0 | NootedRed provided, for brightness controll
-SSDT-PNLF | NootedRed provided, for brightness controll
+SSDT-ALS0 | NootedRed provided, for brightness control
+SSDT-PNLF | NootedRed provided, for brightness control
 
 ---
 ### Kexts
@@ -83,9 +83,7 @@ NullEthernet | Enable iCloud login on laptops with no ethernet port
 VoodooI2C | Trackpad/Touch Screen
 VoodooI2CHID | Trackpad/Touch Screen
 BrightnessKeys | Enable brightness controll key on keyboard
-AMDRadeonX5000HWLibs | downgrade kext for Monterey
-AMDRadeonX6000Framebuffer | downgrade kext for Monterey
-AirportItlwm | Intel AX200 wifi kext for Monterey
+AirportItlwm | Enable Intel AX200 wifi
 BlueToolFixup | Enable bluetooth on Montery with IntelBluetoothFirmware
 IntelBluetoothFirmware | Enable bluetooth. 
 IntelBluetoothInjector | Enable bluetooth on Big Sur with IntelBluetoothFirmware
@@ -123,8 +121,8 @@ And guides from EtremeXT
 
 ---
 ### Screenshots
-![display setting](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/显示器设置.png)
-![multi-screen](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/多屏幕.png)
-![wifi](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/Wi-Fi设置.png)
-![bluetooth](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/蓝牙设置.png)
-![geekbench with cps disable](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片/开启cps的跑分.png)
+![display setting](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/显示器设置.png)
+![multi-screen](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/多屏幕.png)
+![wifi](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/Wi-Fi设置.png)
+![bluetooth](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/蓝牙设置.png)
+![geekbench with cps disable](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/开启cps的跑分.png)
