@@ -4,7 +4,7 @@
 
 ## 说明
 
-**本EFI仅供Monterey和Big Sur 使用，建议使用Big Sur**
+**本EFI仅供Monterey和Big Sur**
 
 **在安装MacOS前请在config.plist中禁用nootedred.kext**
 
@@ -24,7 +24,7 @@
 
 3.偶尔会卡住，可能是硬盘问题？
 
-4.目前无法实现硬件编解码，有需求可以装big sur
+4.VCN（视频/图片硬件编解码）暂时还有问题，能使用但不确保问题，默认关闭，开启请添加-nredvcn至boot-args，具体请移至NootedRed页面查看最新进展
 
 ### 配置
 
@@ -83,8 +83,6 @@ NullEthernet | 使无网口设备在MacOS可以登录iCloud
 VoodooI2C | 触控板或触屏驱动
 VoodooI2CHID | 触控板或触屏驱动
 BrightnessKeys | 亮度调节按键
-AMDRadeonX5000HWLibs | Monterey必须（目前），Big sur不需要
-AMDRadeonX6000Framebuffer | Monterey必须（目前），Big sur不需要
 AirportItlwm | 英特尔网卡驱动，注意不同的系统有不同的kext
 BlueToolFixup | 蓝牙驱动，Monterey中搭配IntelBluetoothFirmware使用
 IntelBluetoothFirmware | 蓝牙驱动
