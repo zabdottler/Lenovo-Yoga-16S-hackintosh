@@ -24,6 +24,8 @@
 
 3. Randomly freeze, NVMe drive related?
 
+4. No hardware encoding and decoding, you should install big sur if you need it 
+
 ### Spec
 
 ---
