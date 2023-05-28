@@ -91,6 +91,12 @@ IntelBluetoothFirmware | 蓝牙驱动
 IntelBluetoothInjector | 蓝牙驱动,在Big Sur中搭配IntelBluetoothFirmware使用
 IntelBTPatcher | 蓝牙驱动,在Big Sur中搭配IntelBluetoothFirmware使用
 
+英特尔网卡的蓝牙驱动组合: 
+
+Monterey: IntelBluetoothFirmware+BlueToolFixup
+
+Big sur: IntelBluetoothFirmware+IntelBluetoothInjector+IntelBTPatcher
+
 ---
 ### 关于USB
 
