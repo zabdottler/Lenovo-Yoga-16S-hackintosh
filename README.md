@@ -85,9 +85,11 @@ VoodooI2CHID | 触控板或触屏驱动
 BrightnessKeys | 亮度调节按键
 AMDRadeonX5000HWLibs | Monterey必须（目前），Big sur不需要
 AMDRadeonX6000Framebuffer | Monterey必须（目前），Big sur不需要
-AirportItlwm | 英特尔ax200 Monterey驱动
-BlueToolFixup | 蓝牙驱动，Monterey中与IntelBluetoothFirmware搭配才能驱动英特尔网卡的蓝牙
+AirportItlwm | 英特尔网卡驱动，注意不同的系统有不同的kext
+BlueToolFixup | 蓝牙驱动，Monterey中搭配IntelBluetoothFirmware使用
 IntelBluetoothFirmware | 蓝牙驱动
+IntelBluetoothInjector | 蓝牙驱动,在Big Sur中搭配IntelBluetoothFirmware使用
+IntelBTPatcher | 蓝牙驱动,在Big Sur中搭配IntelBluetoothFirmware使用
 
 ---
 ### 关于USB
