@@ -6,8 +6,6 @@
 
 **本EFI仅供Monterey和Big Sur 使用，建议使用Big Sur**
 
-**Big Sur的EFI中暂时未添加蓝牙相关kexts**
-
 **在安装MacOS前请在config.plist中禁用nootedred.kext**
 
 **本机型需要关闭一个XCHI控制器，不然会卡-V**
