@@ -6,8 +6,6 @@
 
 **This EFI is for Monterey and Big Sur, overall Big Sur is recommanded**
 
-**Bluetooth Kexts is not yet added to Big Sur EFI**
-
 **Disable nootedred.kext in config.plist before install macOS**
 
 **Have to disable one of the XHCI controller in this model, might not be necessary for your laptop**
