@@ -41,7 +41,7 @@ CPU|AMD Ryzen 7 5800H|支持
 触控屏|I2C ELAN|支持
 蓝牙|Intel AX200|支持，原装MTK7921不支持
 HDMI输出||支持
-音频/3.5耳机接口|ALC287|支持
+音频/3.5耳机接口|ALC257|支持
 内存|镁光DDR4 3200MHz|支持
 USB|关闭XCHI0|支持
 
