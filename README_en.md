@@ -41,7 +41,7 @@ Keyboard|PS2 controller|☑️
 Touch Screen|I2C ELAN|☑️
 Bluetooth|Intel AX200|☑️，original MTK7921✖️
 HDMI output||☑️
-Audio/3.5mm jack|ALC287|☑️
+Audio/3.5mm jack|ALC257|☑️
 Ram|Mircon DDR4 3200MHz|☑️
 USB|by disabling XCHI0|☑️
 
