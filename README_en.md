@@ -12,6 +12,8 @@
 
 **SMBIOS is deleted, you need to generate it by your own and fill in config.plist**
 
+**OpenCore version is 0.9.2 release**
+
 ---
 ### Overview
 ![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/总览.png)
