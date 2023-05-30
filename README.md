@@ -12,6 +12,8 @@
 
 **机型信息已删除，请自行生成更换**
 
+**OpneCore版本0.9.2 release**
+
 ---
 ## 总览
 ![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/总览.png)
