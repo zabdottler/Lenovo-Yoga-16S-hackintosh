@@ -110,7 +110,7 @@
 				<key>PP_EnableUploadFirmware</key>
 				<integer>0</integer>
 				<key>PP_Falcon_QuickTransition_Enable</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>PP_GfxOffControl</key>
 				<integer>0</integer>
 				<key>PP_PhmUseDummyBackEnd</key>
@@ -118,7 +118,7 @@
 				<key>PP_ToolsLogSpaceSize</key>
 				<integer>524288</integer>
 				<key>PP_WorkLoadPolicyMask</key>
-				<integer>16</integer>
+				<integer>1</integer>
 			</dict>
 		</dict>
 		<key>com.ChefKissInc.NootedRed</key>
