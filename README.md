@@ -17,6 +17,7 @@
 ---
 ## 总览
 ![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/关于本机.png)
+![overview](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/Lockscreen.jpeg)
 
 ---
 ### 存在的问题
