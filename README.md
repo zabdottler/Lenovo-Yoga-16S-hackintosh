@@ -4,15 +4,15 @@
 
 ## 说明
 
-**本EFI仅供Monterey和Big Sur**
+**本EFI仅供Big Sur至Sonoma使用**
 
-**在安装MacOS前请在config.plist中禁用nootedred.kext**
+**在安装MacOS完成前请在config.plist中禁用nootedred.kext**
 
 **本机型需要关闭一个XCHI控制器，不然会卡-V**
 
 **机型信息已删除，请自行生成更换**
 
-**OpneCore版本0.9.2 release**
+**OpneCore版本0.9.2 release（Big Sur-Ventura）/ 0.9.3 debug（Sonoma）**
 
 ---
 ## 总览
@@ -24,10 +24,13 @@
 
 2.内置麦克风
 
-3.偶尔会卡住，可能是硬盘问题？
+3.偶尔卡住，主要表现在刚开机或者某些需要硬件加速的情况
 
-4.VCN（视频/图片硬件编解码）暂时还有问题，能使用但不确保问题，默认关闭，开启请添加-nredvcn至boot-args，具体请移至NootedRed页面查看最新进展
+4.VCN（硬件编解码）暂时还有问题，具体请移至NootedRed页面查看最新进展
 
+5.WIFI目前只能使用itlwm搭配heliport软件进行使用，需要开机启动的可以编辑itlwm.kext里面的info.plist将你需要开机就连接的WiFi信息注入，具体参考https://openintelwireless.github.io/itlwm/FAQ.html
+
+6.无法使用隔空投送等功能（Sonoma）
 ### 配置
 
 ---
@@ -90,10 +93,12 @@ BlueToolFixup | 蓝牙驱动，Monterey中搭配IntelBluetoothFirmware使用
 IntelBluetoothFirmware | 蓝牙驱动
 IntelBluetoothInjector | 蓝牙驱动,在Big Sur中搭配IntelBluetoothFirmware使用
 IntelBTPatcher | 蓝牙驱动,在Big Sur中搭配IntelBluetoothFirmware使用
+itlwm | 英特尔WiFi驱动，需要安装heliport软件搭配使用，ax200测试可以在Sonoma beta1中使用
 
 英特尔网卡的蓝牙驱动组合: 
+Sonoma: 暂无蓝牙需求所以未测试
 
-Monterey: IntelBluetoothFirmware+BlueToolFixup
+Monterey/Ventura: IntelBluetoothFirmware+BlueToolFixup+IntelBluetoothFirmware
 
 Big sur: IntelBluetoothFirmware+IntelBluetoothInjector+IntelBTPatcher
 
@@ -120,9 +125,3 @@ Big sur: IntelBluetoothFirmware+IntelBluetoothInjector+IntelBTPatcher
 >https://github.com/ExtremeXT/Lenovo_Legion_5_Hackintosh
 
 ---
-### 截图
-![display setting](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/显示器设置.png)
-![multi-screen](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/多屏幕.png)
-![wifi](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/Wi-Fi设置.png)
-![bluetooth](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/蓝牙设置.png)
-![geekbench with cps disable](https://github.com/zabdottler/Lenovo-Yoga-16S-hackintosh/raw/main/图片:Images/开启cps的跑分.png)
